@@ -1,0 +1,90 @@
+[ 2017-06-05T23:43:16+08:00 ] ::1 /zz/index.php/Home/Index/person_info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001109s ]
+SQL: SHOW COLUMNS FROM `think_add_team` [ RunTime:0.0034s ]
+SQL: SELECT `t_id` FROM `think_add_team` WHERE `u_id` = 44 LIMIT 1000   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_team_info` [ RunTime:0.0035s ]
+SQL: SELECT `t_id` FROM `think_team_info` WHERE `u_id` = 44 LIMIT 1000   [ RunTime:0.0003s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('46')  [ RunTime:0.0002s ]
+SQL: SELECT `t_id`,`t_name`,`t_num`,`t_abstract`,`t_time`,`t_number` FROM `think_team_info` WHERE `t_id` IN ('46')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_user_info` [ RunTime:0.0036s ]
+SQL: SELECT `u_name`,`u_class`,`u_school`,`u_label`,`u_exp` FROM `think_user_info` WHERE `u_id` = 44 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000221s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000366s ]
+NOTIC: [8] Undefined variable: team_create D:\wamp\www\zz\Application\Runtime\Cache\Home\c73c92bae43177ecf14f2452ae35facd.php 第 117 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055507s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001752s ]
+
+[ 2017-06-05T23:43:16+08:00 ] ::1 /zz/index.php/Home/Index/person_info.html?t=0.6224514976513684
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002138s ]
+SQL: SHOW COLUMNS FROM `think_add_team` [ RunTime:0.0065s ]
+SQL: SELECT `t_id` FROM `think_add_team` WHERE `u_id` = 44 LIMIT 1000   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_team_info` [ RunTime:0.0073s ]
+SQL: SELECT `t_id` FROM `think_team_info` WHERE `u_id` = 44 LIMIT 1000   [ RunTime:0.0004s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('46')  [ RunTime:0.0003s ]
+SQL: SELECT `t_id`,`t_name`,`t_num`,`t_abstract`,`t_time`,`t_number` FROM `think_team_info` WHERE `t_id` IN ('46')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_user_info` [ RunTime:0.0057s ]
+SQL: SELECT `u_name`,`u_class`,`u_school`,`u_label`,`u_exp` FROM `think_user_info` WHERE `u_id` = 44 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000266s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000457s ]
+NOTIC: [8] Undefined variable: team_create D:\wamp\www\zz\Application\Runtime\Cache\Home\c73c92bae43177ecf14f2452ae35facd.php 第 117 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056575s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056961s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002836s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003343s ]
+
+[ 2017-06-05T23:43:51+08:00 ] ::1 /zz/index.php/Home/Index/notify.html?t=0.22236308816336736
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002629s ]
+SQL: SHOW COLUMNS FROM `think_system_message` [ RunTime:0.0055s ]
+SQL: SELECT `ss_id`,`ss_title`,`ss_content`,`ss_time` FROM `think_system_message` WHERE `u_email` = 'liulonghang123@qq.com' LIMIT 1000   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000671s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001335s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057691s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001682s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002708s ]
+
+[ 2017-06-05T23:43:51+08:00 ] ::1 /zz/index.php/Home/Index/notify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002633s ]
+SQL: SHOW COLUMNS FROM `think_system_message` [ RunTime:0.0074s ]
+SQL: SELECT `ss_id`,`ss_title`,`ss_content`,`ss_time` FROM `think_system_message` WHERE `u_email` = 'liulonghang123@qq.com' LIMIT 1000   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000474s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020102s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001841s ]
+

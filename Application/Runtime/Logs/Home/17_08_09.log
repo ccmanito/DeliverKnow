@@ -1,0 +1,283 @@
+[ 2017-08-09T15:00:37+08:00 ] ::1 /zz/index.php/Home/Index/notify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002769s ]
+SQL: SHOW COLUMNS FROM `think_system_message` [ RunTime:0.0604s ]
+SQL: SELECT `ss_id`,`ss_title`,`ss_content`,`ss_time` FROM `think_system_message` WHERE `u_email` = 'liulonghang123@qq.com' LIMIT 1000   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000272s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000685s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058539s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003751s ]
+
+[ 2017-08-09T15:00:37+08:00 ] ::1 /zz/index.php/Home/Index/notify.html?t=0.6881886379685165
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001950s ]
+SQL: SHOW COLUMNS FROM `think_system_message` [ RunTime:0.0115s ]
+SQL: SELECT `ss_id`,`ss_title`,`ss_content`,`ss_time` FROM `think_system_message` WHERE `u_email` = 'liulonghang123@qq.com' LIMIT 1000   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000276s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000749s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050738s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002656s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003894s ]
+
+[ 2017-08-09T15:00:39+08:00 ] ::1 /zz/index.php/Home/Index/person_info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001250s ]
+SQL: SHOW COLUMNS FROM `think_add_team` [ RunTime:0.0240s ]
+SQL: SELECT `t_id` FROM `think_add_team` WHERE `u_id` = 44 LIMIT 1000   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_team_info` [ RunTime:0.0034s ]
+SQL: SELECT `t_id` FROM `think_team_info` WHERE `u_id` = 44 LIMIT 1000   [ RunTime:0.0002s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('52','53')  [ RunTime:0.0002s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('46')  [ RunTime:0.0002s ]
+SQL: SELECT `t_id`,`t_name`,`t_num`,`t_abstract`,`t_time`,`t_number` FROM `think_team_info` WHERE `t_id` IN ('46','52','53')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_user_info` [ RunTime:0.0033s ]
+SQL: SELECT `u_name`,`u_class`,`u_school`,`u_label`,`u_exp` FROM `think_user_info` WHERE `u_id` = 44 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000696s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097964s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098457s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004162s ]
+
+[ 2017-08-09T15:00:39+08:00 ] ::1 /zz/index.php/Home/Index/person_info.html?t=0.9217722280578913
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002107s ]
+SQL: SHOW COLUMNS FROM `think_add_team` [ RunTime:0.0331s ]
+SQL: SELECT `t_id` FROM `think_add_team` WHERE `u_id` = 44 LIMIT 1000   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `think_team_info` [ RunTime:0.0079s ]
+SQL: SELECT `t_id` FROM `think_team_info` WHERE `u_id` = 44 LIMIT 1000   [ RunTime:0.0010s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('52','53')  [ RunTime:0.0010s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('46')  [ RunTime:0.0011s ]
+SQL: SELECT `t_id`,`t_name`,`t_num`,`t_abstract`,`t_time`,`t_number` FROM `think_team_info` WHERE `t_id` IN ('46','52','53')  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `think_user_info` [ RunTime:0.0083s ]
+SQL: SELECT `u_name`,`u_class`,`u_school`,`u_label`,`u_exp` FROM `think_user_info` WHERE `u_id` = 44 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000357s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029186s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001238s ]
+
+[ 2017-08-09T15:01:05+08:00 ] ::1 /zz/index.php/Home/Index/search
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002311s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000293s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057967s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000947s ]
+
+[ 2017-08-09T15:01:05+08:00 ] ::1 /zz/index.php/Home/Index/search.html?t=0.03076703688989335
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001313s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000394s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022185s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001062s ]
+
+[ 2017-08-09T15:01:05+08:00 ] ::1 /zz/index.php/Home/Index/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2017-08-09T15:01:05+08:00 ] ::1 /zz/index.php/Home/Index/css/home.css
+ERR: 非法操作:css
+
+[ 2017-08-09T15:01:05+08:00 ] ::1 /zz/index.php/Home/Index/css/person_info.css
+ERR: 非法操作:css
+
+[ 2017-08-09T15:01:05+08:00 ] ::1 /zz/index.php/Home/Index/js/jquery.min.js?_=1502262041755
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001499s ]
+ERR: 非法操作:js
+
+[ 2017-08-09T15:01:05+08:00 ] ::1 /zz/index.php/Home/Index/js/bootstrap.min.js?_=1502262041756
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002454s ]
+ERR: 非法操作:js
+
+[ 2017-08-09T15:01:05+08:00 ] ::1 /zz/index.php/Home/Index/js/jquery.min.js?_=1502262041757
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003209s ]
+ERR: 非法操作:js
+
+[ 2017-08-09T15:01:06+08:00 ] ::1 /zz/index.php/Home/Index/js/bootstrap.min.js?_=1502262041758
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002115s ]
+ERR: 非法操作:js
+
+[ 2017-08-09T15:03:22+08:00 ] ::1 /zz/index.php/Home/Index/person_info.html?t=0.9994026082093443
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001340s ]
+SQL: SHOW COLUMNS FROM `think_add_team` [ RunTime:0.0033s ]
+SQL: SELECT `t_id` FROM `think_add_team` WHERE `u_id` = 44 LIMIT 1000   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_team_info` [ RunTime:0.0033s ]
+SQL: SELECT `t_id` FROM `think_team_info` WHERE `u_id` = 44 LIMIT 1000   [ RunTime:0.0003s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('52','53','54')  [ RunTime:0.0003s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('46')  [ RunTime:0.0002s ]
+SQL: SELECT `t_id`,`t_name`,`t_num`,`t_abstract`,`t_time`,`t_number` FROM `think_team_info` WHERE `t_id` IN ('46','52','53','54')  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_user_info` [ RunTime:0.0030s ]
+SQL: SELECT `u_name`,`u_class`,`u_school`,`u_label`,`u_exp` FROM `think_user_info` WHERE `u_id` = 44 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000410s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017348s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000792s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001180s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001508s ]
+
+[ 2017-08-09T15:03:22+08:00 ] ::1 /zz/index.php/Home/Index/person_info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001509s ]
+SQL: SHOW COLUMNS FROM `think_add_team` [ RunTime:0.0036s ]
+SQL: SELECT `t_id` FROM `think_add_team` WHERE `u_id` = 44 LIMIT 1000   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_team_info` [ RunTime:0.0040s ]
+SQL: SELECT `t_id` FROM `think_team_info` WHERE `u_id` = 44 LIMIT 1000   [ RunTime:0.0003s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('52','53','54')  [ RunTime:0.0003s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('46')  [ RunTime:0.0003s ]
+SQL: SELECT `t_id`,`t_name`,`t_num`,`t_abstract`,`t_time`,`t_number` FROM `think_team_info` WHERE `t_id` IN ('46','52','53','54')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_user_info` [ RunTime:0.0048s ]
+SQL: SELECT `u_name`,`u_class`,`u_school`,`u_label`,`u_exp` FROM `think_user_info` WHERE `u_id` = 44 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000241s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000379s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019307s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001166s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001392s ]
+
+[ 2017-08-09T15:03:28+08:00 ] ::1 /zz/index.php/Home/Index/search
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001702s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000379s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010238s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010407s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000599s ]
+
+[ 2017-08-09T15:03:28+08:00 ] ::1 /zz/index.php/Home/Index/search.html?t=0.806139265051214
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001636s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000378s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009910s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000892s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000988s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002036s ]
+
+[ 2017-08-09T15:03:28+08:00 ] ::1 /zz/index.php/Home/Index/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2017-08-09T15:03:28+08:00 ] ::1 /zz/index.php/Home/Index/css/home.css
+ERR: 非法操作:css
+
+[ 2017-08-09T15:03:28+08:00 ] ::1 /zz/index.php/Home/Index/css/person_info.css
+ERR: 非法操作:css
+
+[ 2017-08-09T15:03:28+08:00 ] ::1 /zz/index.php/Home/Index/js/jquery.min.js?_=1502262202724
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002259s ]
+ERR: 非法操作:js
+
+[ 2017-08-09T15:03:28+08:00 ] ::1 /zz/index.php/Home/Index/js/bootstrap.min.js?_=1502262202725
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001295s ]
+ERR: 非法操作:js
+
+[ 2017-08-09T15:03:28+08:00 ] ::1 /zz/index.php/Home/Index/js/jquery.min.js?_=1502262202726
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001410s ]
+ERR: 非法操作:js
+
+[ 2017-08-09T15:03:28+08:00 ] ::1 /zz/index.php/Home/Index/js/bootstrap.min.js?_=1502262202727
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001602s ]
+ERR: 非法操作:js
+
+[ 2017-08-09T15:03:47+08:00 ] ::1 /zz/index.php/Home/Registered/checkName?username=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001833s ]
+SQL: SHOW COLUMNS FROM `think_user_login` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `think_user_login` WHERE `u_email` = '' AND `u_status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+

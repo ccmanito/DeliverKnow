@@ -1,0 +1,120 @@
+[ 2016-12-11T21:20:28+08:00 ] ::1 /zz/index.php/Home/Registered/checkName?username=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000981s ]
+ERR: SQLSTATE[HY000] [1045] Accès refusé pour l'utilisateur: 'root'@'@localhost' (mot de passe: OUI)
+
+[ 2016-12-11T21:22:45+08:00 ] ::1 /zz/index.php/Home/Login/dologin
+ERR: SQLSTATE[HY000] [1045] Accès refusé pour l'utilisateur: 'root'@'@localhost' (mot de passe: OUI)
+
+[ 2016-12-11T21:22:54+08:00 ] ::1 /zz/index.php/Home/Login/dologin
+ERR: SQLSTATE[HY000] [1045] Accès refusé pour l'utilisateur: 'root'@'@localhost' (mot de passe: OUI)
+
+[ 2016-12-11T21:23:07+08:00 ] ::1 /zz/index.php/Home/Login/dologin
+ERR: SQLSTATE[HY000] [1045] Accès refusé pour l'utilisateur: 'root'@'@localhost' (mot de passe: OUI)
+
+[ 2016-12-11T21:26:09+08:00 ] ::1 /zz/index.php/Home/Login/in
+ERR: 非法操作:in
+
+[ 2016-12-11T21:26:38+08:00 ] ::1 /zz/index.php/Home/Login/dologin
+ERR: SQLSTATE[HY000] [1045] Accès refusé pour l'utilisateur: 'root'@'@localhost' (mot de passe: OUI)
+
+[ 2016-12-11T21:28:54+08:00 ] ::1 /zz/index.php/Home/Login/dologin
+ERR: SQLSTATE[HY000] [1045] Accès refusé pour l'utilisateur: 'root'@'@localhost' (mot de passe: OUI)
+
+[ 2016-12-11T21:30:31+08:00 ] ::1 /zz/index.php/Home/Login/dologin
+ERR: SQLSTATE[HY000] [1045] Accès refusé pour l'utilisateur: 'root'@'@localhost' (mot de passe: OUI)
+
+[ 2016-12-11T21:31:20+08:00 ] ::1 /zz/index.php/Home/Login/dologin
+ERR: SQLSTATE[HY000] [1045] Accès refusé pour l'utilisateur: 'root'@'@localhost' (mot de passe: OUI)
+
+[ 2016-12-11T23:20:04+08:00 ] ::1 /zz/index.php/Home/Index/notify.html?t=0.03797480078702087
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+SQL: SHOW COLUMNS FROM `think_system_message` [ RunTime:0.0425s ]
+SQL: SELECT `ss_id`,`ss_title`,`ss_content`,`ss_time` FROM `think_system_message` WHERE `u_email` = '1834716579@qq.com' LIMIT 1000   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000564s ]
+
+[ 2016-12-11T23:20:04+08:00 ] ::1 /zz/index.php/Home/Index/notify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+SQL: SHOW COLUMNS FROM `think_system_message` [ RunTime:0.0217s ]
+SQL: SELECT `ss_id`,`ss_title`,`ss_content`,`ss_time` FROM `think_system_message` WHERE `u_email` = '1834716579@qq.com' LIMIT 1000   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000412s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016561s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000876s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000815s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000982s ]
+
+[ 2016-12-11T23:20:05+08:00 ] ::1 /zz/index.php/Home/Index/person_info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+SQL: SHOW COLUMNS FROM `think_add_team` [ RunTime:0.0081s ]
+SQL: SELECT `t_id` FROM `think_add_team` WHERE `u_id` = 45 LIMIT 1000   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_team_info` [ RunTime:0.0070s ]
+SQL: SELECT `t_id` FROM `think_team_info` WHERE `u_id` = 45 LIMIT 1000   [ RunTime:0.0003s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('46')  [ RunTime:0.0003s ]
+SQL: SELECT `t_id`,`t_name`,`t_num`,`t_abstract`,`t_time`,`t_number` FROM `think_team_info` WHERE `t_id` IN ('46')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_user_info` [ RunTime:0.0068s ]
+SQL: SELECT `u_name`,`u_class`,`u_school`,`u_label`,`u_exp` FROM `think_user_info` WHERE `u_id` = 45 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+NOTIC: [8] Undefined variable: team_add D:\wapserver\wamp\wamp\www\zz\Application\Runtime\Cache\Home\c73c92bae43177ecf14f2452ae35facd.php 第 207 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055612s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000612s ]
+
+[ 2016-12-11T23:20:05+08:00 ] ::1 /zz/index.php/Home/Index/person_info.html?t=0.23490451969036918
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001263s ]
+SQL: SHOW COLUMNS FROM `think_add_team` [ RunTime:0.0081s ]
+SQL: SELECT `t_id` FROM `think_add_team` WHERE `u_id` = 45 LIMIT 1000   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_team_info` [ RunTime:0.0086s ]
+SQL: SELECT `t_id` FROM `think_team_info` WHERE `u_id` = 45 LIMIT 1000   [ RunTime:0.0003s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('46')  [ RunTime:0.0003s ]
+SQL: SELECT `t_id`,`t_name`,`t_num`,`t_abstract`,`t_time`,`t_number` FROM `think_team_info` WHERE `t_id` IN ('46')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_user_info` [ RunTime:0.0071s ]
+SQL: SELECT `u_name`,`u_class`,`u_school`,`u_label`,`u_exp` FROM `think_user_info` WHERE `u_id` = 45 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+NOTIC: [8] Undefined variable: team_add D:\wapserver\wamp\wamp\www\zz\Application\Runtime\Cache\Home\c73c92bae43177ecf14f2452ae35facd.php 第 207 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013580s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000925s ]
+

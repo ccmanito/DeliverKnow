@@ -1,0 +1,180 @@
+[ 2016-11-15T00:13:58+08:00 ] ::1 /zz/index.php/Home/Index/notify.html?t=0.6733338576771384
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001877s ]
+ERR: 非法操作:notify
+
+[ 2016-11-15T00:13:58+08:00 ] ::1 /zz/index.php/Home/Index/notify.html?t=0.669466576726123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001928s ]
+ERR: 非法操作:notify
+
+[ 2016-11-15T00:13:59+08:00 ] ::1 /zz/index.php/Home/Index/person_info.html?t=0.980686541931397
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001720s ]
+SQL: SHOW COLUMNS FROM `think_add_team` [ RunTime:0.0051s ]
+SQL: SELECT `t_id` FROM `think_add_team` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_team_info` [ RunTime:0.0046s ]
+SQL: SELECT `t_id` FROM `think_team_info` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0005s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('1','2','4','9','10','11')  [ RunTime:0.0005s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('3')  [ RunTime:0.0005s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('9','10','1','2','4','11','3')  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018911s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019096s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000922s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001082s ]
+
+[ 2016-11-15T00:13:59+08:00 ] ::1 /zz/index.php/Home/Index/person_info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001874s ]
+SQL: SHOW COLUMNS FROM `think_add_team` [ RunTime:0.0045s ]
+SQL: SELECT `t_id` FROM `think_add_team` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_team_info` [ RunTime:0.0044s ]
+SQL: SELECT `t_id` FROM `think_team_info` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0005s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('1','2','4','9','10','11')  [ RunTime:0.0008s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('3')  [ RunTime:0.0005s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('9','10','1','2','4','11','3')  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000246s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000494s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035162s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002252s ]
+
+[ 2016-11-15T00:14:00+08:00 ] ::1 /zz/index.php/Home/Index/search.html?t=0.3945104267647239
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002137s ]
+ERR: 非法操作:search
+
+[ 2016-11-15T00:14:00+08:00 ] ::1 /zz/index.php/Home/Index/search.html?t=0.3196430289879888
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001890s ]
+ERR: 非法操作:search
+
+[ 2016-11-15T00:14:01+08:00 ] ::1 /zz/index.php/Home/Index/person_info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001530s ]
+SQL: SHOW COLUMNS FROM `think_add_team` [ RunTime:0.0165s ]
+SQL: SELECT `t_id` FROM `think_add_team` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_team_info` [ RunTime:0.0039s ]
+SQL: SELECT `t_id` FROM `think_team_info` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0004s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('1','2','4','9','10','11')  [ RunTime:0.0004s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('3')  [ RunTime:0.0003s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('9','10','1','2','4','11','3')  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017768s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001177s ]
+
+[ 2016-11-15T00:14:01+08:00 ] ::1 /zz/index.php/Home/Index/person_info.html?t=0.6649359757306417
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001778s ]
+SQL: SHOW COLUMNS FROM `think_add_team` [ RunTime:0.0036s ]
+SQL: SELECT `t_id` FROM `think_add_team` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_team_info` [ RunTime:0.0045s ]
+SQL: SELECT `t_id` FROM `think_team_info` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0003s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('1','2','4','9','10','11')  [ RunTime:0.0004s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('3')  [ RunTime:0.0003s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('9','10','1','2','4','11','3')  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022958s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023111s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000892s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001272s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001476s ]
+
+[ 2016-11-15T22:54:44+08:00 ] ::1 /zz/index.php/Home/Index/notify.html?t=0.00590533012041905
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001397s ]
+ERR: 非法操作:notify
+
+[ 2016-11-15T22:54:44+08:00 ] ::1 /zz/index.php/Home/Index/notify.html?t=0.06256265761319968
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001560s ]
+ERR: 非法操作:notify
+
+[ 2016-11-15T22:55:28+08:00 ] ::1 /zz/index.php/Home/Index/person_info.html?t=0.8051546442543207
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002353s ]
+SQL: SHOW COLUMNS FROM `think_add_team` [ RunTime:0.0041s ]
+SQL: SELECT `t_id` FROM `think_add_team` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_team_info` [ RunTime:0.0044s ]
+SQL: SELECT `t_id` FROM `think_team_info` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0004s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('1','2','4','9','10','11')  [ RunTime:0.0004s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('3')  [ RunTime:0.0003s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('9','10','1','2','4','11','3')  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000317s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021818s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001169s ]
+
+[ 2016-11-15T22:55:28+08:00 ] ::1 /zz/index.php/Home/Index/person_info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001935s ]
+SQL: SHOW COLUMNS FROM `think_add_team` [ RunTime:0.0040s ]
+SQL: SELECT `t_id` FROM `think_add_team` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_team_info` [ RunTime:0.0040s ]
+SQL: SELECT `t_id` FROM `think_team_info` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0004s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('1','2','4','9','10','11')  [ RunTime:0.0004s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('3')  [ RunTime:0.0004s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('9','10','1','2','4','11','3')  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000307s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016865s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016989s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000789s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000895s ]
+

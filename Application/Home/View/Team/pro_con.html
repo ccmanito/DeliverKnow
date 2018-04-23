@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>我的项目</title>
+
+    <load href="__PUBLIC__/Css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <load href="__PUBLIC__/Css/signin.css" rel="stylesheet" />
+    <load href="__PUBLIC__/Css/home.css" rel="stylesheet" />
+    <load href="__PUBLIC__/Css/pro_con.css" rel="stylesheet" />
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <load href="__PUBLIC__/Js/ie-emulation-modes-warning.js" /></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div id="pro_con">
+        <ul id="pro_nav">
+          <li id="pro_nav_file">项目资料</li>
+          <li id="pro_nav_posts">项目帖子</li>
+        </ul>
+
+       <p style="clear:left;"><hr/></p> 
+        <div id="file">
+           <ul>
+             <li>
+               <span class="name">dsdsddsdsdsd</span>
+               <a class="glyphicon glyphicon-download-alt" href="" download="download"></a>
+             </li>
+           </ul>
+
+          <form action="__URL__/upload" enctype="multipart/form-data" method="POST" id="upload">
+              <input type="text" name="name" />
+              <input type="file" name="photo" />
+              <input type="submit" value="提交" >
+          </form>
+
+<!--            <button type="button" id="upload" data-toggle="modal" data-target="#myModal">
+            +上传
+            </button> -->
+
+            <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="    true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title" id="myModalLabel">上传资料</h4>
+                  </div> 
+                 <form action="" method="post">
+                    <div class="modal-body">
+                          <input type="file" />   
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      <button type="submit" class="btn btn-primary">upload</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          
+        </div>
+        <div id="posts" style="display: none;">
+            <div id="left">
+                <h4>帖子标题</h4>
+                <ul id="posts_con">
+                    <li>
+                      <p>
+                        <img src="./images/user.png"  class="user_pho"/>
+                        <span class="user_name">dsds多大的:</span>
+                        <span class="user_message">得到发的发的发的发的发的浮动发东风的发的方法是的是的打扫扫的是的发东风的发的浮动地方大幅度地方大幅度 </span>
+                      </p>
+                      <span class="time">2016-09-18 16:43:41</span>
+                      <!-- <span class="reply">回复</span> -->
+                    </li>
+                    <li>
+                      <p>
+                        <img src="./images/user.png"  class="user_pho"/>
+                        <span class="user_name">dsds多大的:</span>
+                        <span class="user_message">得到发的发的发的发的发的浮动发东风的发的方法是的是的打扫扫的是的发东风的发的浮动地方大幅度地方大幅度 </span>
+                      </p>
+                      <span class="time">2016-09-18 16:43:41</span>
+                    </li>
+                </ul>
+                <div id="my_message">
+                 <p><button id="Ispeak">我来说</button></p>
+                  <form id="my_message_form" style=" display: none;">
+                      <div><textarea></textarea></div>
+                       <input type="submit" value="发表" />
+                       <input type="reset" value="取消" />
+                  </form>
+                </div>
+            </div>
+            <div id="right">
+              <ul>
+                <li>dssdsdsdsdsdsdsd </li>
+                <li>dssdsdsdsdsdsdsd </li>
+                <li>dssdsdsdsdsdsdsd </li>
+                <li>dssdsdsdsdsdsdsd </li>
+                <li>dssdsdsdsdsdsdsd </li>
+                <li>dssdsdsdsdsdsdsd </li>
+                <li>dssdsdsdsdsdsdsd </li>
+                <li>dssdsdsdsdsdsdsd </li>
+                <li>dssdsdsdsdsdsdsd </li>
+                <li>dssdsdsdsdsdsdsd </li>
+              </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <load href="__PUBLIC__/Js/ie10-viewport-bug-workaround.js" />
+    <load href="__PUBLIC__/Js/jquery.min.js" />
+    <script type="text/javascript">
+      $(function(){
+        // 资料和帖子菜单的切换
+         $("#pro_nav_file").click(function(){
+           $('#posts').css("display","none");
+           $('#file').css("display","block");
+         
+         })
+          $("#pro_nav_posts").click(function(){
+           $('#file').css("display","none");
+           $('#posts').css("display","block");
+         })
+           
+         // 显示与隐藏发表留言框
+          var flag=true;
+           $("#Ispeak").click(function(){
+                
+                if(flag)
+                {
+                  $("#my_message_form").css("display","block");
+                  flag=false;
+                }
+                else
+                {
+                  $("#my_message_form").css("display","none");
+                  flag=true;
+                }
+             
+           })
+          // $('#posts_con li').hover(function(){
+          //        $(".reply").css("display","block");
+          // },function(){
+          //     $(".reply").css("display","none");
+          // })
+      })
+    </script>
+  </body>
+</html>

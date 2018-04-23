@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>庭院深深深几许

@@ -1,0 +1,1230 @@
+[ 2016-11-23T09:08:14+08:00 ] ::1 /zz/index.php/Home/Index/person_info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001517s ]
+SQL: SHOW COLUMNS FROM `think_add_team` [ RunTime:0.0038s ]
+SQL: SELECT `t_id` FROM `think_add_team` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_team_info` [ RunTime:0.0051s ]
+SQL: SELECT `t_id` FROM `think_team_info` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0004s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('1','2','4','9','10','11')  [ RunTime:0.0004s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('3')  [ RunTime:0.0003s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('9','10','1','2','4','11','3')  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051347s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000756s ]
+
+[ 2016-11-23T09:08:15+08:00 ] ::1 /zz/index.php/Home/Index/person_info.html?t=0.9656741555140667
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002244s ]
+SQL: SHOW COLUMNS FROM `think_add_team` [ RunTime:0.0035s ]
+SQL: SELECT `t_id` FROM `think_add_team` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_team_info` [ RunTime:0.0036s ]
+SQL: SELECT `t_id` FROM `think_team_info` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0004s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('1','2','4','9','10','11')  [ RunTime:0.0006s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('3')  [ RunTime:0.0003s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('9','10','1','2','4','11','3')  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000327s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022931s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000815s ]
+
+[ 2016-11-23T09:08:16+08:00 ] ::1 /zz/index.php/Home/Index/notify.html?t=0.5270655253010377
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002267s ]
+ERR: 非法操作:notify
+
+[ 2016-11-23T09:08:16+08:00 ] ::1 /zz/index.php/Home/Index/notify.html?t=0.7172518212752135
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002193s ]
+ERR: 非法操作:notify
+
+[ 2016-11-23T10:56:44+08:00 ] ::1 /zz/index.php/Home/Index/person_info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001241s ]
+SQL: SHOW COLUMNS FROM `think_add_team` [ RunTime:0.0037s ]
+SQL: SELECT `t_id` FROM `think_add_team` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_team_info` [ RunTime:0.0037s ]
+SQL: SELECT `t_id` FROM `think_team_info` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0004s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('1','2','4','9','10','11')  [ RunTime:0.0004s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('3')  [ RunTime:0.0003s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('9','10','1','2','4','11','3')  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015886s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000632s ]
+
+[ 2016-11-23T10:56:44+08:00 ] ::1 /zz/index.php/Home/Index/person_info.html?t=0.6168468478354439
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001661s ]
+SQL: SHOW COLUMNS FROM `think_add_team` [ RunTime:0.0037s ]
+SQL: SELECT `t_id` FROM `think_add_team` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_team_info` [ RunTime:0.0044s ]
+SQL: SELECT `t_id` FROM `think_team_info` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0004s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('1','2','4','9','10','11')  [ RunTime:0.0004s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('3')  [ RunTime:0.0004s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('9','10','1','2','4','11','3')  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017811s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000838s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000945s ]
+
+[ 2016-11-23T11:04:01+08:00 ] ::1 /zz/index.php/Home/Index/notify.html?t=0.4327918408624234
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001226s ]
+ERR: 非法操作:notify
+
+[ 2016-11-23T11:04:01+08:00 ] ::1 /zz/index.php/Home/Index/notify.html?t=0.24199487976868173
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001892s ]
+ERR: 非法操作:notify
+
+[ 2016-11-23T11:04:03+08:00 ] ::1 /zz/index.php/Home/Index/notify.html?t=0.4401804907613056
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001472s ]
+ERR: 非法操作:notify
+
+[ 2016-11-23T11:04:03+08:00 ] ::1 /zz/index.php/Home/Index/notify.html?t=0.26795441890303784
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001219s ]
+ERR: 非法操作:notify
+
+[ 2016-11-23T11:04:03+08:00 ] ::1 /zz/index.php/Home/Index/notify.html?t=0.951007643329993
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002664s ]
+ERR: 非法操作:notify
+
+[ 2016-11-23T11:04:03+08:00 ] ::1 /zz/index.php/Home/Index/notify.html?t=0.689775563005451
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002092s ]
+ERR: 非法操作:notify
+
+[ 2016-11-23T11:04:53+08:00 ] ::1 /zz/index.php/Home/Index/person_info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001967s ]
+SQL: SHOW COLUMNS FROM `think_add_team` [ RunTime:0.0030s ]
+SQL: SELECT `t_id` FROM `think_add_team` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_team_info` [ RunTime:0.0027s ]
+SQL: SELECT `t_id` FROM `think_team_info` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0003s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('1','2','4','9','10','11')  [ RunTime:0.0003s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('3')  [ RunTime:0.0002s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('9','10','1','2','4','11','3')  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013590s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013698s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000711s ]
+
+[ 2016-11-23T11:04:53+08:00 ] ::1 /zz/index.php/Home/Index/person_info.html?t=0.07052869545296003
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001214s ]
+SQL: SHOW COLUMNS FROM `think_add_team` [ RunTime:0.0073s ]
+SQL: SELECT `t_id` FROM `think_add_team` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `think_team_info` [ RunTime:0.0125s ]
+SQL: SELECT `t_id` FROM `think_team_info` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0004s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('1','2','4','9','10','11')  [ RunTime:0.0003s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('3')  [ RunTime:0.0003s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('9','10','1','2','4','11','3')  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000356s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022254s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022441s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001008s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000916s ]
+
+[ 2016-11-23T12:04:01+08:00 ] ::1 /zz/index.php/Home/Index/search.html?t=0.7563282344620235
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001339s ]
+ERR: 非法操作:search
+
+[ 2016-11-23T12:04:01+08:00 ] ::1 /zz/index.php/Home/Index/search.html?t=0.6121907292965698
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001494s ]
+ERR: 非法操作:search
+
+[ 2016-11-23T12:04:02+08:00 ] ::1 /zz/index.php/Home/Index/person_info.html?t=0.9262889838527422
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001548s ]
+SQL: SHOW COLUMNS FROM `think_add_team` [ RunTime:0.0046s ]
+SQL: SELECT `t_id` FROM `think_add_team` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_team_info` [ RunTime:0.0035s ]
+SQL: SELECT `t_id` FROM `think_team_info` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0004s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('1','2','4','9','10','11')  [ RunTime:0.0004s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('3')  [ RunTime:0.0003s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('9','10','1','2','4','11','3')  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015520s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000632s ]
+
+[ 2016-11-23T12:04:02+08:00 ] ::1 /zz/index.php/Home/Index/person_info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002112s ]
+SQL: SHOW COLUMNS FROM `think_add_team` [ RunTime:0.0042s ]
+SQL: SELECT `t_id` FROM `think_add_team` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_team_info` [ RunTime:0.0045s ]
+SQL: SELECT `t_id` FROM `think_team_info` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0004s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('1','2','4','9','10','11')  [ RunTime:0.0004s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('3')  [ RunTime:0.0003s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('9','10','1','2','4','11','3')  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000329s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021280s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021474s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000915s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000961s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001088s ]
+
+[ 2016-11-23T12:04:09+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%5Bobject+Object%5D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001649s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\zz\Application\Home\Controller\ChatInfoController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001047s ]
+
+[ 2016-11-23T12:04:10+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%5Bobject+Object%5D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001621s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\zz\Application\Home\Controller\ChatInfoController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000994s ]
+
+[ 2016-11-23T12:04:16+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%5Bobject+Object%5D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002020s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\zz\Application\Home\Controller\ChatInfoController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001005s ]
+
+[ 2016-11-23T12:04:17+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%5Bobject+Object%5D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001430s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\zz\Application\Home\Controller\ChatInfoController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000974s ]
+
+[ 2016-11-23T12:04:17+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%5Bobject+Object%5D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001450s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\zz\Application\Home\Controller\ChatInfoController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000993s ]
+
+[ 2016-11-23T12:04:17+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%5Bobject+Object%5D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001573s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\zz\Application\Home\Controller\ChatInfoController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000961s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001078s ]
+
+[ 2016-11-23T12:04:17+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%5Bobject+Object%5D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002399s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\zz\Application\Home\Controller\ChatInfoController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001518s ]
+
+[ 2016-11-23T12:04:17+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%5Bobject+Object%5D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001763s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\zz\Application\Home\Controller\ChatInfoController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000857s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000985s ]
+
+[ 2016-11-23T12:04:17+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%5Bobject+Object%5D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001396s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\zz\Application\Home\Controller\ChatInfoController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000879s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000990s ]
+
+[ 2016-11-23T12:04:18+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%5Bobject+Object%5D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001438s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\zz\Application\Home\Controller\ChatInfoController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000982s ]
+
+[ 2016-11-23T12:04:18+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%5Bobject+Object%5D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001438s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\zz\Application\Home\Controller\ChatInfoController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001222s ]
+
+[ 2016-11-23T12:04:21+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%5Bobject+Object%5D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001513s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\zz\Application\Home\Controller\ChatInfoController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000914s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001025s ]
+
+[ 2016-11-23T12:04:22+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%5Bobject+Object%5D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001507s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\zz\Application\Home\Controller\ChatInfoController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-23T12:04:22+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%5Bobject+Object%5D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001452s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\zz\Application\Home\Controller\ChatInfoController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000855s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000964s ]
+
+[ 2016-11-23T12:04:22+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%5Bobject+Object%5D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001435s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\zz\Application\Home\Controller\ChatInfoController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000972s ]
+
+[ 2016-11-23T12:04:22+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%5Bobject+Object%5D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001420s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\zz\Application\Home\Controller\ChatInfoController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000879s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000990s ]
+
+[ 2016-11-23T12:04:22+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%5Bobject+Object%5D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001419s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\zz\Application\Home\Controller\ChatInfoController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001019s ]
+
+[ 2016-11-23T12:06:28+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%5Bobject+Object%5D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001382s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\zz\Application\Home\Controller\ChatInfoController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001007s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001141s ]
+
+[ 2016-11-23T12:06:29+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%5Bobject+Object%5D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001401s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\zz\Application\Home\Controller\ChatInfoController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001466s ]
+
+[ 2016-11-23T12:06:29+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%5Bobject+Object%5D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001408s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\zz\Application\Home\Controller\ChatInfoController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001117s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001240s ]
+
+[ 2016-11-23T12:06:29+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%5Bobject+Object%5D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001373s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\zz\Application\Home\Controller\ChatInfoController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001008s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001128s ]
+
+[ 2016-11-23T12:06:29+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%5Bobject+Object%5D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001382s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\zz\Application\Home\Controller\ChatInfoController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000972s ]
+
+[ 2016-11-23T12:06:29+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%5Bobject+Object%5D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002184s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\zz\Application\Home\Controller\ChatInfoController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000988s ]
+
+[ 2016-11-23T12:06:30+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%5Bobject+Object%5D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001363s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\zz\Application\Home\Controller\ChatInfoController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000991s ]
+
+[ 2016-11-23T12:06:32+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%5Bobject+Object%5D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001434s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\zz\Application\Home\Controller\ChatInfoController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000869s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000982s ]
+
+[ 2016-11-23T12:06:32+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%5Bobject+Object%5D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001350s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\zz\Application\Home\Controller\ChatInfoController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000974s ]
+
+[ 2016-11-23T12:06:32+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%5Bobject+Object%5D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001463s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\zz\Application\Home\Controller\ChatInfoController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001004s ]
+
+[ 2016-11-23T12:06:32+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%5Bobject+Object%5D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001405s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\zz\Application\Home\Controller\ChatInfoController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000861s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000972s ]
+
+[ 2016-11-23T12:06:32+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%5Bobject+Object%5D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001393s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\zz\Application\Home\Controller\ChatInfoController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000920s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001031s ]
+
+[ 2016-11-23T12:06:33+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%5Bobject+Object%5D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001386s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\zz\Application\Home\Controller\ChatInfoController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000969s ]
+
+[ 2016-11-23T12:06:33+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%5Bobject+Object%5D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001417s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\zz\Application\Home\Controller\ChatInfoController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000942s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001078s ]
+
+[ 2016-11-23T12:06:35+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%5Bobject+Object%5D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001678s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\zz\Application\Home\Controller\ChatInfoController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000987s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001102s ]
+
+[ 2016-11-23T12:06:35+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%5Bobject+Object%5D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001425s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\zz\Application\Home\Controller\ChatInfoController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001035s ]
+
+[ 2016-11-23T12:06:35+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%5Bobject+Object%5D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001514s ]
+NOTIC: [8] Undefined index:  D:\wamp\www\zz\Application\Home\Controller\ChatInfoController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000944s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001056s ]
+
+[ 2016-11-23T12:35:12+08:00 ] ::1 /zz/index.php/Home/Index/notify.html?t=0.2380280874346301
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003378s ]
+ERR: 非法操作:notify
+
+[ 2016-11-23T12:35:12+08:00 ] ::1 /zz/index.php/Home/Index/notify.html?t=0.1094149334098582
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001857s ]
+ERR: 非法操作:notify
+
+[ 2016-11-23T12:35:16+08:00 ] ::1 /zz/index.php/Home/Index/person_info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001610s ]
+SQL: SHOW COLUMNS FROM `think_add_team` [ RunTime:0.0035s ]
+SQL: SELECT `t_id` FROM `think_add_team` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_team_info` [ RunTime:0.0034s ]
+SQL: SELECT `t_id` FROM `think_team_info` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0004s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('1','2','4','9','10','11')  [ RunTime:0.0004s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('3')  [ RunTime:0.0004s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('9','10','1','2','4','11','3')  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000234s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000606s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017029s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000794s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000902s ]
+
+[ 2016-11-23T12:35:16+08:00 ] ::1 /zz/index.php/Home/Index/person_info.html?t=0.5413754081323983
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001614s ]
+SQL: SHOW COLUMNS FROM `think_add_team` [ RunTime:0.0039s ]
+SQL: SELECT `t_id` FROM `think_add_team` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_team_info` [ RunTime:0.0044s ]
+SQL: SELECT `t_id` FROM `think_team_info` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0004s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('1','2','4','9','10','11')  [ RunTime:0.0003s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('3')  [ RunTime:0.0003s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('9','10','1','2','4','11','3')  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000255s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001424s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029112s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029330s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001532s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002648s ]
+
+[ 2016-11-23T12:35:16+08:00 ] ::1 /zz/index.php/Home/Index/search.html?t=0.001799172352770162
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001838s ]
+ERR: 非法操作:search
+
+[ 2016-11-23T12:35:16+08:00 ] ::1 /zz/index.php/Home/Index/search.html?t=0.2616993286854994
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001395s ]
+ERR: 非法操作:search
+
+[ 2016-11-23T13:39:44+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%E5%95%A6%E5%95%A6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002065s ]
+SQL: SHOW COLUMNS FROM `think_chat_info` [ RunTime:0.0037s ]
+SQL: INSERT INTO `think_chat_info` (`u_id`,`c_content`,`c_time`) VALUES ('1','啦啦','1479879584') [ RunTime:0.0618s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000980s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001093s ]
+
+[ 2016-11-23T13:40:05+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%E5%95%A6%E5%95%A6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001541s ]
+SQL: SHOW COLUMNS FROM `think_chat_info` [ RunTime:0.0043s ]
+SQL: INSERT INTO `think_chat_info` (`u_id`,`c_content`,`c_time`) VALUES ('1','啦啦','1479879605') [ RunTime:0.0690s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001093s ]
+
+[ 2016-11-23T13:40:51+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%E5%95%A6%E5%95%A6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002965s ]
+SQL: SHOW COLUMNS FROM `think_chat_info` [ RunTime:0.0036s ]
+SQL: INSERT INTO `think_chat_info` (`u_id`,`c_content`,`c_time`) VALUES ('1','啦啦','1479879651') [ RunTime:0.0854s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001116s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001242s ]
+
+[ 2016-11-23T13:42:15+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%E5%95%A6%E5%95%A6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002574s ]
+SQL: SHOW COLUMNS FROM `think_chat_info` [ RunTime:0.0042s ]
+SQL: INSERT INTO `think_chat_info` (`u_id`,`c_content`,`c_time`) VALUES ('1','啦啦','1479879735') [ RunTime:0.0972s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001101s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001222s ]
+
+[ 2016-11-23T13:45:53+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%E5%95%A6%E5%95%A6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002134s ]
+SQL: SHOW COLUMNS FROM `think_chat_info` [ RunTime:0.0049s ]
+SQL: INSERT INTO `think_chat_info` (`u_id`,`c_content`,`c_time`) VALUES ('1','啦啦','1479879953') [ RunTime:0.1473s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001132s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001286s ]
+
+[ 2016-11-23T13:47:21+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%E5%95%A6%E5%95%A6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001528s ]
+SQL: SHOW COLUMNS FROM `think_chat_info` [ RunTime:0.0066s ]
+SQL: INSERT INTO `think_chat_info` (`u_id`,`c_content`,`c_time`) VALUES ('1','啦啦','1479880041') [ RunTime:0.0611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001215s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001412s ]
+
+[ 2016-11-23T13:51:05+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=VC%E9%83%A8%E5%88%86%E8%AF%BB%E5%90%8E%E6%84%9F
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001436s ]
+SQL: SHOW COLUMNS FROM `think_chat_info` [ RunTime:0.0036s ]
+SQL: INSERT INTO `think_chat_info` (`u_id`,`c_content`,`c_time`) VALUES ('1','VC部分读后感','1479880265') [ RunTime:0.0622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000979s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001107s ]
+
+[ 2016-11-23T13:51:14+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%E5%AF%B9%E6%96%B9%E6%B0%B4%E7%94%B5%E8%B4%B9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001512s ]
+SQL: SHOW COLUMNS FROM `think_chat_info` [ RunTime:0.0037s ]
+SQL: INSERT INTO `think_chat_info` (`u_id`,`c_content`,`c_time`) VALUES ('1','对方水电费','1479880274') [ RunTime:0.0529s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001553s ]
+
+[ 2016-11-23T13:51:21+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%E5%A4%A7%E8%8C%83%E7%94%98%E8%BF%AA%E5%8F%91%E9%AC%BC%E5%9C%B0%E6%96%B9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003811s ]
+SQL: SHOW COLUMNS FROM `think_chat_info` [ RunTime:0.0039s ]
+SQL: INSERT INTO `think_chat_info` (`u_id`,`c_content`,`c_time`) VALUES ('1','大范甘迪发鬼地方','1479880281') [ RunTime:0.0880s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001526s ]
+
+[ 2016-11-23T13:51:25+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%E5%A4%A7%E8%8C%83%E7%94%98%E8%BF%AA%E5%8F%91%E9%AC%BC%E5%9C%B0%E6%96%B9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002674s ]
+SQL: SHOW COLUMNS FROM `think_chat_info` [ RunTime:0.0037s ]
+SQL: INSERT INTO `think_chat_info` (`u_id`,`c_content`,`c_time`) VALUES ('1','大范甘迪发鬼地方','1479880285') [ RunTime:0.0790s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001131s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001254s ]
+
+[ 2016-11-23T13:51:39+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%E8%80%8C%E5%A8%81%E5%B0%94
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001387s ]
+SQL: SHOW COLUMNS FROM `think_chat_info` [ RunTime:0.0038s ]
+SQL: INSERT INTO `think_chat_info` (`u_id`,`c_content`,`c_time`) VALUES ('1','而威尔','1479880299') [ RunTime:0.0820s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001172s ]
+
+[ 2016-11-23T13:51:48+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%E6%92%92%E5%AF%B9%E6%96%B9%E6%B0%B4%E7%94%B5%E8%B4%B9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001495s ]
+SQL: SHOW COLUMNS FROM `think_chat_info` [ RunTime:0.0048s ]
+SQL: INSERT INTO `think_chat_info` (`u_id`,`c_content`,`c_time`) VALUES ('1','撒对方水电费','1479880307') [ RunTime:0.0698s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001216s ]
+
+[ 2016-11-23T13:51:52+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%E6%92%92%E5%AF%B9%E6%96%B9%E6%B0%B4%E7%94%B5%E8%B4%B9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001365s ]
+SQL: SHOW COLUMNS FROM `think_chat_info` [ RunTime:0.0036s ]
+SQL: INSERT INTO `think_chat_info` (`u_id`,`c_content`,`c_time`) VALUES ('1','撒对方水电费','1479880312') [ RunTime:0.0828s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001151s ]
+
+[ 2016-11-23T14:04:31+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%E5%81%87%E7%9A%84
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+SQL: SHOW COLUMNS FROM `think_chat_info` [ RunTime:0.0030s ]
+SQL: INSERT INTO `think_chat_info` (`u_id`,`c_content`,`c_time`) VALUES ('1','假的','1479881071') [ RunTime:0.0987s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000653s ]
+
+[ 2016-11-23T14:07:36+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%E4%BD%A0%E5%9C%A8%E5%8D%97%E6%96%B9%E7%9A%84%E8%89%B3%E9%98%B3%E9%87%8C%E5%A4%A7%E9%9B%AA%E7%BA%B7%E9%A3%9E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+SQL: SHOW COLUMNS FROM `think_chat_info` [ RunTime:0.0028s ]
+SQL: INSERT INTO `think_chat_info` (`u_id`,`c_content`,`c_time`) VALUES ('1','你在南方的艳阳里大雪纷飞','1479881256') [ RunTime:0.0832s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001007s ]
+
+[ 2016-11-23T14:08:40+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%E4%BD%A0%E5%9C%A8%E5%8D%97%E6%96%B9%E7%9A%84%E8%89%B3%E9%98%B3%E9%87%8C%E5%A4%A7%E9%9B%AA%E7%BA%B7%E9%A3%9E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+SQL: SHOW COLUMNS FROM `think_chat_info` [ RunTime:0.0036s ]
+SQL: INSERT INTO `think_chat_info` (`u_id`,`c_content`,`c_time`) VALUES ('1','你在南方的艳阳里大雪纷飞','1479881320') [ RunTime:0.0832s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000800s ]
+
+[ 2016-11-23T14:11:24+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%E6%88%91%E5%9C%A8%E5%8C%97%E6%96%B9%E7%9A%84%E5%AF%92%E5%A4%9C%E9%87%8C%E5%9B%9B%E5%AD%A3%E5%A6%82%E6%98%A5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001269s ]
+SQL: SHOW COLUMNS FROM `think_chat_info` [ RunTime:0.0035s ]
+SQL: INSERT INTO `think_chat_info` (`u_id`,`c_content`,`c_time`) VALUES ('1','我在北方的寒夜里四季如春','1479881484') [ RunTime:0.0664s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000930s ]
+
+[ 2016-11-23T14:11:50+08:00 ] ::1 /zz/index.php/Home/ChatInfo/setchat?content=%E6%88%91%E5%9C%A8%E5%8C%97%E6%96%B9%E7%9A%84%E5%AF%92%E5%A4%9C%E9%87%8C%E5%9B%9B%E5%AD%A3%E5%A6%82%E6%98%A5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001086s ]
+SQL: SHOW COLUMNS FROM `think_chat_info` [ RunTime:0.0036s ]
+SQL: INSERT INTO `think_chat_info` (`u_id`,`c_content`,`c_time`) VALUES ('1','我在北方的寒夜里四季如春','1479881510') [ RunTime:0.0834s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000817s ]
+
+[ 2016-11-23T14:12:55+08:00 ] ::1 /zz/index.php/Home/Index/person_info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001046s ]
+SQL: SHOW COLUMNS FROM `think_add_team` [ RunTime:0.0031s ]
+SQL: SELECT `t_id` FROM `think_add_team` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_team_info` [ RunTime:0.0027s ]
+SQL: SELECT `t_id` FROM `think_team_info` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0003s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('1','2','4','9','10','11')  [ RunTime:0.0003s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('3')  [ RunTime:0.0002s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('9','10','1','2','4','11','3')  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000643s ]
+
+[ 2016-11-23T14:12:55+08:00 ] ::1 /zz/index.php/Home/Index/person_info.html?t=0.8149781268471774
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001266s ]
+SQL: SHOW COLUMNS FROM `think_add_team` [ RunTime:0.0034s ]
+SQL: SELECT `t_id` FROM `think_add_team` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_team_info` [ RunTime:0.0033s ]
+SQL: SELECT `t_id` FROM `think_team_info` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0003s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('1','2','4','9','10','11')  [ RunTime:0.0003s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('3')  [ RunTime:0.0002s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('9','10','1','2','4','11','3')  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000317s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017596s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001233s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001397s ]
+
+[ 2016-11-23T14:12:55+08:00 ] ::1 /zz/index.php/Home/Index/notify.html?t=0.5244330710300116
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+ERR: 非法操作:notify
+
+[ 2016-11-23T14:12:55+08:00 ] ::1 /zz/index.php/Home/Index/notify.html?t=0.5561947315525682
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002866s ]
+ERR: 非法操作:notify
+
+[ 2016-11-23T14:12:56+08:00 ] ::1 /zz/index.php/Home/Index/person_info.html?t=0.6456000789937335
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001265s ]
+SQL: SHOW COLUMNS FROM `think_add_team` [ RunTime:0.0027s ]
+SQL: SELECT `t_id` FROM `think_add_team` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_team_info` [ RunTime:0.0026s ]
+SQL: SELECT `t_id` FROM `think_team_info` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0003s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('1','2','4','9','10','11')  [ RunTime:0.0003s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('3')  [ RunTime:0.0002s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('9','10','1','2','4','11','3')  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010616s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010708s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2016-11-23T14:12:56+08:00 ] ::1 /zz/index.php/Home/Index/person_info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001513s ]
+SQL: SHOW COLUMNS FROM `think_add_team` [ RunTime:0.0030s ]
+SQL: SELECT `t_id` FROM `think_add_team` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_team_info` [ RunTime:0.0032s ]
+SQL: SELECT `t_id` FROM `think_team_info` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0003s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('1','2','4','9','10','11')  [ RunTime:0.0002s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('3')  [ RunTime:0.0003s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('9','10','1','2','4','11','3')  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018204s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018343s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000872s ]
+
+[ 2016-11-23T14:13:01+08:00 ] ::1 /zz/index.php/Home/Index/notify.html?t=0.56993378488012
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+ERR: 非法操作:notify
+
+[ 2016-11-23T14:13:01+08:00 ] ::1 /zz/index.php/Home/Index/notify.html?t=0.9888160671424671
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001326s ]
+ERR: 非法操作:notify
+
+[ 2016-11-23T14:20:19+08:00 ] ::1 /zz/index.php/Home/Index/person_info.html?t=0.5955391601363151
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001184s ]
+SQL: SHOW COLUMNS FROM `think_add_team` [ RunTime:0.0035s ]
+SQL: SELECT `t_id` FROM `think_add_team` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_team_info` [ RunTime:0.0039s ]
+SQL: SELECT `t_id` FROM `think_team_info` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0004s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('1','2','4','9','10','11')  [ RunTime:0.0004s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('3')  [ RunTime:0.0003s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('9','10','1','2','4','11','3')  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014850s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2016-11-23T14:20:19+08:00 ] ::1 /zz/index.php/Home/Index/person_info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001597s ]
+SQL: SHOW COLUMNS FROM `think_add_team` [ RunTime:0.0035s ]
+SQL: SELECT `t_id` FROM `think_add_team` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_team_info` [ RunTime:0.0039s ]
+SQL: SELECT `t_id` FROM `think_team_info` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0004s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('1','2','4','9','10','11')  [ RunTime:0.0004s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('3')  [ RunTime:0.0003s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('9','10','1','2','4','11','3')  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000296s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000991s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001119s ]
+
+[ 2016-11-23T14:20:24+08:00 ] ::1 /zz/index.php/Home/Index/person_info.html?t=0.779612997741076
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+SQL: SHOW COLUMNS FROM `think_add_team` [ RunTime:0.0026s ]
+SQL: SELECT `t_id` FROM `think_add_team` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_team_info` [ RunTime:0.0025s ]
+SQL: SELECT `t_id` FROM `think_team_info` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0003s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('1','2','4','9','10','11')  [ RunTime:0.0003s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('3')  [ RunTime:0.0002s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('9','10','1','2','4','11','3')  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011189s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2016-11-23T14:20:24+08:00 ] ::1 /zz/index.php/Home/Index/person_info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001928s ]
+SQL: SHOW COLUMNS FROM `think_add_team` [ RunTime:0.0448s ]
+SQL: SELECT `t_id` FROM `think_add_team` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_team_info` [ RunTime:0.0031s ]
+SQL: SELECT `t_id` FROM `think_team_info` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0004s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('1','2','4','9','10','11')  [ RunTime:0.0003s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('3')  [ RunTime:0.0002s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('9','10','1','2','4','11','3')  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000363s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001996s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002318s ]
+
+[ 2016-11-23T14:21:46+08:00 ] ::1 /zz/index.php/Home/Index/notify.html?t=0.09553782903057129
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001666s ]
+ERR: 非法操作:notify
+
+[ 2016-11-23T14:21:46+08:00 ] ::1 /zz/index.php/Home/Index/notify.html?t=0.22517068674366825
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001809s ]
+ERR: 非法操作:notify
+
+[ 2016-11-23T16:19:35+08:00 ] ::1 /zz/index.php/Home/Index/notify.html?t=0.13235229789695713
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001629s ]
+ERR: 非法操作:notify
+
+[ 2016-11-23T16:19:35+08:00 ] ::1 /zz/index.php/Home/Index/notify.html?t=0.18384162721599995
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002849s ]
+ERR: 非法操作:notify
+
+[ 2016-11-23T16:19:36+08:00 ] ::1 /zz/index.php/Home/Index/person_info.html?t=0.5811598872726205
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001890s ]
+SQL: SHOW COLUMNS FROM `think_add_team` [ RunTime:0.0033s ]
+SQL: SELECT `t_id` FROM `think_add_team` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_team_info` [ RunTime:0.0034s ]
+SQL: SELECT `t_id` FROM `think_team_info` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0004s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('1','2','4','9','10','11')  [ RunTime:0.0004s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('3')  [ RunTime:0.0003s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('9','10','1','2','4','11','3')  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015714s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000914s ]
+
+[ 2016-11-23T16:19:36+08:00 ] ::1 /zz/index.php/Home/Index/person_info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001910s ]
+SQL: SHOW COLUMNS FROM `think_add_team` [ RunTime:0.0038s ]
+SQL: SELECT `t_id` FROM `think_add_team` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_team_info` [ RunTime:0.0048s ]
+SQL: SELECT `t_id` FROM `think_team_info` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0003s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('1','2','4','9','10','11')  [ RunTime:0.0003s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('3')  [ RunTime:0.0003s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('9','10','1','2','4','11','3')  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000305s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019590s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019735s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001149s ]
+
+[ 2016-11-23T16:19:39+08:00 ] ::1 /zz/index.php/Home/Index/search.html?t=0.635949481158057
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002577s ]
+ERR: 非法操作:search
+
+[ 2016-11-23T16:19:39+08:00 ] ::1 /zz/index.php/Home/Index/search.html?t=0.34950658199476203
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002013s ]
+ERR: 非法操作:search
+
+[ 2016-11-23T16:19:41+08:00 ] ::1 /zz/index.php/Home/Index/person_info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001898s ]
+SQL: SHOW COLUMNS FROM `think_add_team` [ RunTime:0.0034s ]
+SQL: SELECT `t_id` FROM `think_add_team` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_team_info` [ RunTime:0.0033s ]
+SQL: SELECT `t_id` FROM `think_team_info` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0004s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('1','2','4','9','10','11')  [ RunTime:0.0004s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('3')  [ RunTime:0.0003s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('9','10','1','2','4','11','3')  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016179s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016300s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001394s ]
+
+[ 2016-11-23T16:19:41+08:00 ] ::1 /zz/index.php/Home/Index/person_info.html?t=0.21825341962403555
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001850s ]
+SQL: SHOW COLUMNS FROM `think_add_team` [ RunTime:0.0036s ]
+SQL: SELECT `t_id` FROM `think_add_team` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_team_info` [ RunTime:0.0054s ]
+SQL: SELECT `t_id` FROM `think_team_info` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0005s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('1','2','4','9','10','11')  [ RunTime:0.0005s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('3')  [ RunTime:0.0004s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('9','10','1','2','4','11','3')  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000450s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000728s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024639s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000933s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000993s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001126s ]
+
+[ 2016-11-23T16:19:41+08:00 ] ::1 /zz/index.php/Home/Index/notify.html?t=0.37063157790708856
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003387s ]
+ERR: 非法操作:notify
+
+[ 2016-11-23T16:19:41+08:00 ] ::1 /zz/index.php/Home/Index/notify.html?t=0.8461502130436285
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001303s ]
+ERR: 非法操作:notify
+
+[ 2016-11-23T16:31:14+08:00 ] ::1 /zz/index.php/Home/Index/notify.html?t=0.8827736184856845
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001785s ]
+ERR: 非法操作:notify
+
+[ 2016-11-23T16:31:14+08:00 ] ::1 /zz/index.php/Home/Index/notify.html?t=0.12281033579668388
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002225s ]
+ERR: 非法操作:notify
+
+[ 2016-11-23T16:31:16+08:00 ] ::1 /zz/index.php/Home/Index/person_info
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001798s ]
+SQL: SHOW COLUMNS FROM `think_add_team` [ RunTime:0.0036s ]
+SQL: SELECT `t_id` FROM `think_add_team` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_team_info` [ RunTime:0.0035s ]
+SQL: SELECT `t_id` FROM `think_team_info` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0004s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('1','2','4','9','10','11')  [ RunTime:0.0004s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('3')  [ RunTime:0.0003s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('9','10','1','2','4','11','3')  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015189s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000815s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000920s ]
+
+[ 2016-11-23T16:31:16+08:00 ] ::1 /zz/index.php/Home/Index/person_info.html?t=0.6420365096326663
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001792s ]
+SQL: SHOW COLUMNS FROM `think_add_team` [ RunTime:0.0037s ]
+SQL: SELECT `t_id` FROM `think_add_team` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_team_info` [ RunTime:0.0042s ]
+SQL: SELECT `t_id` FROM `think_team_info` WHERE `u_id` = 1 LIMIT 1000   [ RunTime:0.0006s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('1','2','4','9','10','11')  [ RunTime:0.0004s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('3')  [ RunTime:0.0003s ]
+SQL: SELECT `t_id`,`t_name` FROM `think_team_info` WHERE `t_id` IN ('9','10','1','2','4','11','3')  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000406s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021081s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001738s ]
+

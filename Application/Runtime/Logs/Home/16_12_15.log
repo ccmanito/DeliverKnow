@@ -1,0 +1,7 @@
+[ 2016-12-15T22:58:39+08:00 ] ::1 /zz/index.php/Home/Registered/checkName?username=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001581s ]
+SQL: SHOW COLUMNS FROM `think_user_login` [ RunTime:0.0730s ]
+SQL: SELECT * FROM `think_user_login` WHERE `u_email` = '' AND `u_status` = 1 LIMIT 1   [ RunTime:0.0147s ]
+

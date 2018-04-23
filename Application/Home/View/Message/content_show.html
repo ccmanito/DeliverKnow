@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>帖子内容及回复</title>
+	<load href="__PUBLIC__/Css/pro_con.css" />
+	<load href="__PUBLIC__/Css/content.css" />
+  <load href="__PUBLIC__/Css/bootstrap.min.css" rel="stylesheet" />
+  <load href="__PUBLIC__/Js/jquery.min.js" />
+  <load href="__PUBLIC__/Js/bootstrap.min.js" />
+
+  <style type="text/css">
+
+    .reason{
+      width: 300px;
+      height: 130px;
+      border-radius: 10px;
+      outline: none;
+      margin-left: 100px;
+      resize: none;
+    }
+    .resp button{
+      margin-left: 15px;
+      position: relative;
+      right: 30px;
+      background-color: #32323A;
+      border:none;
+      outline: none;
+      color: #fff;
+    }
+    .response{
+      border-radius: 12px;
+      margin-bottom: 10px;
+      border:1px solid #32323A;
+      width: 600px;
+      min-height: 150px;
+      border: 1px solid #32323A;
+      margin-left: 20px;
+      padding:20px;
+      position: relative;
+    }
+    .cont1,.content{
+      border: 1px solid #32323A;
+    }
+    .cont1{
+      margin-bottom: 10px;
+    }
+    .left{
+      border-right: 1px solid #32323A;
+      height: 200px;
+    }
+  </style>
+</head>
+<body>
+ 
+  <div class="big">
+      <div class="content">
+        <div class="left"> 
+           <div class="intro">
+         	<img src="__PUBLIC__/Images/image.jpg"style="margin:5px;" alt="文字说明">
+         	<p style="text-align: center;"  ><{$name}>的留言板</p>
+          </div> 
+        </div>
+           <div class="right">
+ 
+         <foreach name="message" item="vo">  
+            <div class="cont1">
+           <h3>标题:<{$vo.s_title}></h3> 
+           <div class="resp">
+              <button type="button" id="modify" data-toggle="modal" data-target="#myModal">举报</button>
+              <button id="quick_reply">回复</button>
+           </div>
+           <div class="text">
+            <p><{$vo.s_content}></p>
+   
+           </div>
+           <div><span style="position: absolute;left:5px;bottom: 0px;color:blue;">回复人数:<{$re_count}></span><p class="time"><{$vo.s_time|date="Y-m-d H:i:s",###}></p></div>
+           </div> 
+         </foreach>
+          
+          <foreach name="reply" item="vo" key="k">
+     	    <div class="response">
+     	 	    <p><{$vo.r_content}></p>
+     	 	      <div>
+              <span style="position: absolute;left:15px;bottom: 0px;color:red;">用户名:<{$vo.u_name}></span>
+              <p class="time">回复时间:<span><{$vo.r_time|date="Y-m-d H:i:s",###}></span></p>
+            </div>
+     	    </div> 
+          </foreach>
+
+
+           <!-- 点击回复 --> 
+           <div id="box">
+               
+               <form action="__URL__/response/id/<{$id}>/number/<{$number}>" name="response" method="POST">
+           	       <textarea name="response" id="reText" placeholder="请在此回复...."></textarea>
+           	       <input type="submit" class="button-style" value="发表" />
+                   <input type="reset" class="button-style" value="重置" />
+               </form>
+
+           </div>
+     	 </div>    	
+      </div>
+    </div>
+
+     <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title" id="myModalLabel">举报帖子理由</h4>
+                  </div>
+
+              <!--  举报 --> 
+                 <form action="__APP__/Home/Super/report/id/<{$id}>" method="POST">
+                    <textarea  name="content" class="reason">
+                      
+                    </textarea>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      <button type="submit" class="btn btn-primary">save change</button>
+                    </div>
+                  </form>
+               <!-- 举报 --> 
+
+                </div>
+              </div>
+            </div>
+
+  
+     <load href="__PUBLIC__/Js/jquery.min.js" />
+     <script>
+     	 $(function(){
+     	 	 //回复的点击
+     	 	 $('#quick_reply').on('click', function() {
+        document.body.scrollTop=document.body.scrollHeight;
+           $("#reText").focus();
+        })
+       
+       //资料和帖子菜单的切换
+        $("#pro_nav_file").click(function(){
+           location.href="pro_show.html";
+         
+         })
+          $("#pro_nav_posts").click(function(){
+           location.href="pro_show.html";
+         
+         })
+    });
+         	
+     </script>
+</body>
+</html>

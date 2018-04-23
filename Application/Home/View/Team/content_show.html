@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>帖子内容及回复</title>
+	<load href="__PUBLIC__/Css/pro_con.css" />
+	<load href="__PUBLIC__/Css/stylesheet" />
+</head>
+<body>
+  <div class="big">
+   <div class="pro_con"> 
+	   <ul id="pro_nav">
+          <li id="pro_nav_file">项目资料</li>
+          <li id="pro_nav_posts">返回</li>
+       </ul>
+       <p style="clear:left;"><hr/></p> 
+   </div>
+      <div class="content">
+        <div class="left"> 
+           <div class="intro">
+         	<img src="image.jpg"style="margin:5px;" alt="文字说明">
+         	<p style="text-align: center;">楼主：firefly</p>
+          </div> 
+        </div>
+           <!-- text -->
+           <div class="right">
+     	    <div class="cont1">
+     	 	 <h3>类型名</h3> 
+     	 	 <div class="resp"><button id="quick_reply">回复</button></div>
+     	 	 <div class="text">
+     	 	 	<p>具体法师打发斯蒂芬的发生大幅度具体法师打发斯蒂芬的发生大幅度具体法师打发斯蒂芬的发生大幅度</p>
+     	 	 	<p>具体法师打发斯蒂芬的发生大幅度具体法师打发斯蒂芬的发生大幅度具体法师打发斯蒂芬的发生大幅度</p>
+     	 	 	<p>具体法师打发斯蒂芬的发生大幅度具体法师打发斯蒂芬的发生大幅度具体法师打发斯蒂芬的发生大幅度</p>
+     	 	 	<p>具体法师打发斯蒂芬的发生大幅度具体法师打发斯蒂芬的发生大幅度具体法师打发斯蒂芬的发生大幅度</p>
+     	 	 </div>
+     	 	 <p class="time">2016-09-18 16:43:41</p>
+     	   </div> 
+     	    <div class="response">
+     	 	    <p>发斯蒂芬的发生发斯蒂芬的发生发斯蒂芬的发生</p>
+     	 	   <p class="time">回复时间：<span>2016-09-18 16:43:41</span></p>
+     	    </div>  
+     	     <div class="response">
+     	 	    <p>发斯蒂芬的发生发斯蒂芬的发生发斯蒂芬的发生</p>
+     	 	   <p class="time">回复时间：<span>2016-09-18 16:43:41</span></p>
+     	    </div>  
+     	     <div class="response">
+     	 	    <p>发斯蒂芬的发生发斯蒂芬的发生发斯蒂芬的发生</p>
+     	 	     <p class="time">回复时间：<span>2016-09-18 16:43:41</span></p>
+     	    </div>  
+           <!-- 点击回复 --> 
+           <div id="box">
+           	   <textarea name="box" id="reText" placeholder="请在此回复...."></textarea>
+           	   <input type="submit" class="button-style" value="发表" />
+               <input type="reset" class="button-style" value="重置" />
+           </div>
+     	 </div>    	
+      </div>
+    </div>
+     <load href="__PUBLIC__/Js/jquery.min.js" />
+     <script>
+     	 $(function(){
+     	 	 //回复的点击
+     	 	 $('#quick_reply').on('click', function() {
+        document.body.scrollTop=document.body.scrollHeight;
+           $("#reText").focus();
+        })
+       
+       //资料和帖子菜单的切换
+        $("#pro_nav_file").click(function(){
+           location.href="pro_show.html";
+         
+         })
+          $("#pro_nav_posts").click(function(){
+           location.href="pro_show.html";
+         
+         })
+    });
+         	
+     </script>
+</body>
+</html>

@@ -1,0 +1,186 @@
+body,div,header,aside,article,p,ul,li,span,img,form,button,input,h4,hr,nav,h3,h2,a{
+	margin:0px;
+	padding:0px;
+}
+html,body{
+	height:100%;
+	min-width: 800px;
+	border: 1px solid #32323A;
+	border-bottom: 1px solid #fff;
+	overflow-x:hidden;
+}
+a:hover,a:visited,a:link{
+	text-decoration: none;
+	color: #000;
+}
+header{
+	width:100%;
+	height:50px;
+	padding-top: 5px;
+	background: #32323A;
+	position: fixed;
+}
+
+header span{
+	color:#6BC30D;
+	font-size: 25px;
+    cursor: pointer;
+    float: right;
+    margin-right:20px;
+}
+
+header span img{
+	width:40px;
+	height:40px;
+
+}
+aside{
+	width:200px;
+	height:100%;
+	position: fixed;
+	margin-top: 50px;
+	border-top: 1px solid #000;
+	background: #32323A;
+}
+#user_pic{
+	height: 160px;
+	text-align: center;
+
+}
+#user_pic img{
+	margin-top:20px; 
+	width:90px;
+	height:90px;
+	border-radius:45px;
+}
+#user_pic p{
+	color:#fff ;
+	font-size: 20px;	
+}
+aside ul li{
+	height:40px;
+	line-height: 40px;
+	text-align: center;
+	list-style: none;
+	color: #95A0AA;
+	font-size: 18px;
+	cursor: pointer;
+}
+.active{
+	background: #6BC30D;
+	color: #fff;
+}
+article#content{
+	margin:50px 0 0 200px;
+	padding-top: 50px;
+	padding-left: 50px;
+}
+
+
+#nav li span{
+	margin-right: 20px;
+}
+
+
+
+#add,.pro{
+	width:220px;
+	height: 100px;
+	border: 1px solid #DDD;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 100px;
+	text-align: center;
+	float: left;
+	margin-right: 50px;
+	color: #000;
+	margin-bottom: 50px;
+}
+#add:hover,.pro:hover{
+	background: #DDD;
+	cursor: pointer;
+}
+#pro_box{
+	width:1100px;
+}
+
+
+
+
+#chat{
+	position: fixed;
+	right: 0px;
+	top: 0px;
+	height: 100%;
+	width:500px;
+	background: #EEE;
+}
+#chat li{
+	list-style: none;
+	margin:0px;
+	padding: 0px;
+}
+#chat nav{
+	width: 100px;
+	height: 100%;
+	float: left;
+	border-right: 1px solid #6BC30D;
+	background:#ccc;
+	
+}
+#chat nav li{
+	height: 40px;
+	line-height: 40px;
+	cursor: pointer;
+}
+#chat #chat_con{
+	width: 400px;
+	height: 90%;
+	overflow-y:scroll;
+}
+#chat_con li img{
+	width:40px;
+	height: 40px;
+}
+#chat_con li{
+	font-size: 16px;
+}
+#chat_con li span.time{
+	margin-left: 200px;
+}
+#chat_con li span.chat_con{
+	display: inline-block;
+	margin-left: 40px;
+}
+#chat_con form{
+	position: absolute;
+	left: 100px;
+	bottom: 0px;
+}
+#chat_con input[type="text"]{
+	width: 330px;
+	height: 40px;
+	border:1px solid #32323A;
+}
+#chat_con input[type="button"]{
+	width: 50px;
+	height: 40px;
+	border:none;
+	outline: none;
+	color: #fff;
+	background: #32323A;
+}
+#chat h3{
+	text-align: center;
+	height: 52px;
+	line-height: 50px;
+	background: #32323A;
+	font-size: 28px;
+	color:#fff;
+}
+#chat .glyphicon-remove-circle{
+	float: right;
+	margin:0;
+	padding: 0;
+	cursor: pointer;
+}
